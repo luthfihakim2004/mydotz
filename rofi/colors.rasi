@@ -1,0 +1,35 @@
+// @import "~/.cache/wal/colors-rofi-dark"
+
+* {
+    background-color: @background;
+    power-colors: @background;
+    background: #2e3440;
+    foreground: #eceff4;
+    //border-color: #bf616a;
+    spacing: 2;
+
+    text-color: #eceff4;
+    message-background: #2e3440aa;
+    active-background: #2e3440;
+    active-foreground: @foreground;
+    normal-background: @background;
+    normal-foreground: @foreground;
+    urgent-background: #bf616a;
+    urgent-foreground: @foreground;
+
+    alternate-active-background: @background;
+    alternate-active-foreground: @foreground;
+    alternate-normal-background: @background;
+    alternate-normal-foreground: @foreground;
+    alternate-urgent-background: @background;
+    alternate-urgent-foreground: @foreground;
+
+    selected-active-foreground: #eceff4;
+    selected-active-background: #2e3440;
+    selected-normal-background: #4c546c;
+    selected-normal-foreground: @background;
+    selected-urgent-foreground: #eceff4;
+    selected-urgent-background: #2e3440;
+
+}
+
